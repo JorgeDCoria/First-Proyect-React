@@ -1,0 +1,23 @@
+.contador-contenedor{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1b1b32;
+    width: 100%;
+}
+
+.contador-contenedor-log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.contador-contenedor-two{
+    height: auto;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

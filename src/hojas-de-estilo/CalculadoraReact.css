@@ -1,0 +1,36 @@
+.calculadora-contenedor-principal{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 10px;
+    background-color: #1b1b32;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora-logo-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculadora-logo{
+    height: 250px;
+}
+
+.calculadora-contenedor{
+    width: 400px;
+    height: 600px;
+    padding: 14px;
+    background-color: #99c9ff;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin-top: 2em;
+}
+.fila{
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
