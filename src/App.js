@@ -2,6 +2,7 @@ import './App.css';
 import Testimonio from './components/Testimonio.jsx';
 import Contador from './components/Contador.jsx';
 import CalculadoraReact from './components/CalculadoraReact';
+import AplicacionTarea from './components/AplicacionTareas';
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
       </div> 
       
       <Contador />
-      */}
       <CalculadoraReact />
+      */}
+      <AplicacionTarea/>
     </div>
   );
 }
