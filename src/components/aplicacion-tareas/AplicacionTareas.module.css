@@ -1,18 +1,18 @@
-.aplicacion-tareas{
+.aplicaciontareas{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
 }
-.logo-contenedor{
+.logocontenedor{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   margin: 20px;
 }
-.tareas-logo{
+.logo{
   width: 400px;
   height: auto;
 
@@ -24,7 +24,7 @@ h1{
   text-align: center;
   margin: 20px 0;
 }
-.tareas-lsita-principal{
+.listaprincipal{
   width: 600px;
   min-height: 500px;
   background-color: #d0d0d5;

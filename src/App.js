@@ -2,7 +2,7 @@ import "./App.css";
 
 import Contador from "./components/contador/Contador.jsx";
 import CalculadoraReact from "./components/calculadora/CalculadoraReact";
-import AplicacionTarea from "./components/AplicacionTareas";
+import AplicacionTarea from "./components/aplicacion-tareas/AplicacionTareas";
 import Menu from "./components/Menu/Menu";
 import Testimonios from "./components/Testimonios/Testimonios";
 import { Route, Routes } from "react-router-dom";
