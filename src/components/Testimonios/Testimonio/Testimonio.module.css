@@ -1,4 +1,4 @@
-.contenedor-testimonio{
+.contenedortestimonio{
     width: 1170px;
     height: 368px;
     background-color: #ffffff;
@@ -6,30 +6,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 3px 13px 1px rgb(0 0 0 /9%);
+    box-shadow: 5px 5px 8px 2px var(--secondary-color-base);
+    background: var(--primary-color-base);
+    color:white;
 }
-.imagen-testimonio{
+.imagentestimonio{
     height: 100%;
     width: auto;
 }
 
-.contenedor-texto-testimonio{
+.contenedortextotestimonio{
     text-align: center;
     padding: 40px;
     line-height: 1.5rem;
     font-weight: 400;
+  
     
 }
-.nombre-testimonio{
+.nombretestimonio{
     /* rem toma como unidad el tamano de la fuente raiz */
     font-size: 1.3rem;
 }
-.cargo-testimonio{
+.cargotestimonio{
     font-size: 1.3rem;
     margin-top: 15px;
     padding-bottom: 30px;
 }
-.texto-testimonio{
+.textotestimonio{
     text-align: justify;
     font-size: 1.1rem;
+}
+.resaltar{
+    color: var(--secondary-color-base);
 }
