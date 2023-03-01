@@ -1,4 +1,4 @@
-.calculadora-contenedor-principal{
+.calculadoracontenedorprincipal{
     width: 100%;
     min-height: 100vh;
     padding-top: 10px;
@@ -10,16 +10,16 @@
     align-items: center;
 }
 
-.calculadora-logo-contenedor{
+.calculadoralogocontenedor{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.calculadora-logo{
+.calculadoralogo{
     height: 250px;
 }
 
-.calculadora-contenedor{
+.calculadoracontenedor{
     width: 400px;
     height: 600px;
     padding: 14px;

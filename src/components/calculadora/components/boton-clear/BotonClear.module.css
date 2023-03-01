@@ -1,4 +1,4 @@
-.boton-clear{
+.botonclear{
     height: 80px;
     font-size: 1.6em;
     display: flex;
@@ -13,6 +13,6 @@
     cursor: pointer;
     border-radius: 45px;
 }
-.boton-clear:hover{
+.botonclear:hover{
     background-color: #ebb000;
 }

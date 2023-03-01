@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Testimonio from "./Testimonio/Testimonio";
 import s from "./Testimonios.module.css";
 
@@ -29,6 +29,8 @@ const Testimonios = () => {
       testimonio: "",
     },
   ];
+
+  useEffect(() => {}, []);
   return (
     <div className={s.contenedor}>
       <h1 className={s.title}>Renderizado de tarjetas</h1>

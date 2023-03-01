@@ -1,4 +1,4 @@
-.boton-contenedor{
+.botoncontenedor{
     height: 83px;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
     /* los elementos se distribuyan de forma equitativa */
     flex: 1 1;
 }
-.boton-contenedor:hover{
+.botoncontenedor:hover{
     background-color: #5a01a7;
 }
 .operador {
