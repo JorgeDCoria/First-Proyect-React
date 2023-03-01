@@ -1,0 +1,95 @@
+.container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container h1{
+  font-size: 42px;
+  font-weight: 700;
+  -webkit-text-stroke: 0.8px white;
+  color:transparent;
+  letter-spacing: 1px;
+  transition: 0.8s;
+}
+.container h1:hover{
+  color:white
+}
+.subcontainer{
+  border-radius: 24px;
+  height: 500px;
+  width: 400px;
+  box-shadow: 8px 8px 15px 2px var(--secondary-color-base);
+  background: var(--primary-color-base);
+  display: grid;
+  grid-template-columns: 1;
+  place-items: center;
+}
+
+.lista{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  position:relative;
+  z-index: 1;
+}
+.item{
+  margin-bottom: 1rem;
+  font-size: 24px;
+  background: var(--secondary-color-base);
+  width: 100%;
+  height: 50px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  position: relative;
+  
+
+}
+.item::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;  
+  background: linear-gradient(45deg, var(--primary-color-base), var(--secondary-color-base), white);
+  background-size: 200%;
+  border-radius: 16px;
+  filter: blur(10px);
+  animation: glowing 12s infinite;
+  z-index: -1;
+
+}
+
+@keyframes glowing{
+0%{
+  background-position: 0 0;
+}
+33%{ background-position: 50% 0;}
+66%{background-position: 150% 0;}
+
+  
+
+100%{
+  background-position: 0 0;
+}
+}
+
+
+
+.item:hover{
+  scale: 110%;
+  transition: all;
+  transition-duration: 0.5s;
+}

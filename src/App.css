@@ -31,3 +31,7 @@ h1{
   align-items: center;
   justify-content: center;
 }
+:root{
+  --primary-color-base: #007B79;
+  --secondary-color-base: #FFA028;
+}

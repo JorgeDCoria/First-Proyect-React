@@ -1,8 +1,9 @@
-import './App.css';
-import Testimonio from './components/Testimonio.jsx';
-import Contador from './components/Contador.jsx';
-import CalculadoraReact from './components/CalculadoraReact';
-import AplicacionTarea from './components/AplicacionTareas';
+import "./App.css";
+import Testimonio from "./components/Testimonio.jsx";
+import Contador from "./components/Contador.jsx";
+import CalculadoraReact from "./components/CalculadoraReact";
+import AplicacionTarea from "./components/AplicacionTareas";
+import Menu from "./components/Menu/Menu";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       <Contador />
       <CalculadoraReact />
       */}
-      <AplicacionTarea/>
+      {/* <AplicacionTarea/> */}
+      <Menu />
     </div>
   );
 }
