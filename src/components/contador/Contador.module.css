@@ -1,4 +1,4 @@
-.contador-contenedor{
+.contenedor{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,13 @@
     width: 100%;
 }
 
-.contador-contenedor-log{
+.contenedorlog{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
 }
-.contador-contenedor-two{
+.contenedortwo{
     height: auto;
     min-width: 600px;
     display: flex;

@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Contador from "./components/Contador.jsx";
+import Contador from "./components/contador/Contador.jsx";
 import CalculadoraReact from "./components/calculadora/CalculadoraReact";
 import AplicacionTarea from "./components/AplicacionTareas";
 import Menu from "./components/Menu/Menu";
