@@ -13,7 +13,7 @@ const Menu = () => {
   return (
     <div className={s.container}>
       <div className={s.subcontainer}>
-        <h1>
+        <h1 className={s.title}>
           My First Apps <br /> With React
         </h1>
         <ul className={s.lista}>

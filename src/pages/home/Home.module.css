@@ -1,5 +1,7 @@
+.container{
+}
 .containerboton{
-  position: relative;
+  position:absolute;
   z-index: 1;
   display: grid;
   place-items: center;
@@ -24,7 +26,6 @@
   box-sizing: border-box;
   display: grid;
   place-items: center;
- 
   
 }
 
