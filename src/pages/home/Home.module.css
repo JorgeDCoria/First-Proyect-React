@@ -1,16 +1,53 @@
-.container{
+.containerboton{
   position: relative;
-}
-.volver{
-  position: absolute;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  height: 46px;
+  width: 124px;
   top:20px;
   left: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+.volver{ 
   padding: 5px;
   height: 40px;
   width: 120px;
   border: none;
   font-size: 18px;
-  border-radius: 20px;
+  border-radius: 10px;
   background: var(--secondary-color-base);
   color: white;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+ 
+  
+}
+
+.volver::before{
+  content: "";
+  width: 150%;
+  height: 60%;
+  background: var(--primary-color-base);
+  animation: spin 3s infinite;
+  box-shadow: 0 0 10px var(--primary-color-base);
+  transition: 1.5 linear;
+  position: absolute;
+  left: -20px;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+
+@keyframes spin {
+  0%{
+    transform:rotate( 0);
+  }
+  100%{
+     transform: rotate(360deg);
+  }
 }

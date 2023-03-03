@@ -9,9 +9,12 @@ const Home = () => {
   };
   return (
     <div className={s.container}>
-      <button onClick={backHome} className={s.volver}>
-        Volver
-      </button>
+      <div className={s.containerboton}>
+        <div onClick={backHome} className={s.volver}>
+          Volver
+        </div>
+      </div>
+
       <Outlet />
     </div>
   );
