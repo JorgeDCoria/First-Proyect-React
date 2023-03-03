@@ -1,0 +1,16 @@
+.container{
+  position: relative;
+}
+.volver{
+  position: absolute;
+  top:20px;
+  left: 30px;
+  padding: 5px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  font-size: 18px;
+  border-radius: 20px;
+  background: var(--secondary-color-base);
+  color: white;
+}

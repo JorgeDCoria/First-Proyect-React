@@ -15,6 +15,7 @@ export default function TareaFomulario(props) {
     };
 
     props.onSubmit(tareaNueva);
+    setInput("");
   };
   return (
     <form onSubmit={manejarEnvio} className={s.formulario} action="">

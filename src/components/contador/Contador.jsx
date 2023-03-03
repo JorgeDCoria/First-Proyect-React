@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../../Imagenes/Contador-Imagenes/logo192.png";
 import s from "./Contador.module.css";
 import Cuenta from "./components/cuenta/Cuenta";
 import Boton from "./components/boton/Boton";
@@ -15,7 +14,7 @@ export default function Contador() {
   return (
     <div className={s.contenedor}>
       <div className={s.contenedorlog}>
-        <img src={Logo} alt="logo de app" />
+        <h1 className={s.title}>Contador</h1>
       </div>
       <div className={s.contenedortwo}>
         <Cuenta numClics={numClics} />

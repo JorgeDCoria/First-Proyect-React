@@ -2,15 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1b1b32;
     width: 100%;
-}
-
-.contenedorlog{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    
 }
 .contenedortwo{
     height: auto;
@@ -20,4 +17,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background: var(--primary-color-base);
+    border-radius: 16px;
+    width: 40%;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.title{  
+    margin: 16px 0;
+    color: var(--primary-color-base);
 }

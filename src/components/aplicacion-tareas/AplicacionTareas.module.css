@@ -3,32 +3,51 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  column-gap: 16px;
 
+}
+.titleApp{
+ font-size:40px;
+ font-weight: 700;
+ width: 100%;
+ text-align: center;
+ padding-bottom: 16px;
 }
 .logocontenedor{
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: 20px;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 500px;
+  padding:25px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 24px;
 }
 .logo{
   width: 400px;
   height: auto;
 
 }
-h1{
+.title{
   color: #1b1b32;
-  font-size: 25px;
+  font-size: 32px;
   font-family: Roboto, sans-serif;
   text-align: center;
-  margin: 20px 0;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  background:#d0d0d5;
+  margin:0;
+  
 }
 .listaprincipal{
+  position:relative;
   width: 600px;
-  min-height: 500px;
+  height: 500px;
   background-color: #d0d0d5;
-  padding: 25px;
-  margin: 10px;
+  padding: 15px;
+  box-sizing: border-box;
   border-radius: 25px;
+  overflow-y:auto;
 }
